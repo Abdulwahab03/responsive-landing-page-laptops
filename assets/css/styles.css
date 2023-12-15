@@ -70,7 +70,10 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-image:url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Alienware-wallpaper-alien-artwork-stars-wallpapers.jpg) ;
+  background-position: center;
+  background-position: no-repeat;
+  background-attachment: fixed;
   color: var(--text-color);
 }
 
@@ -99,6 +102,7 @@ button {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 5em;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
