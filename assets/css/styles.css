@@ -100,9 +100,9 @@ button {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5em;
+  max-width: 120%;
+  height: relative;
+  border-radius: 3em;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -118,7 +118,7 @@ img {
 
 .section__title-gradient {
   background: var(--text-gradient);
-  color: transparent;
+  color: turquoise;
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -192,7 +192,7 @@ img {
   text-transform: uppercase;
   font-weight: var(--font-semi-bold);
   background: var(--text-gradient);
-  color: transparent;
+  color:turquoise;
   -webkit-background-clip: text;
   background-clip: text;
   transition: .4s;
@@ -234,10 +234,11 @@ img {
 
 /*=============== HOME ===============*/
 .home__img {
-  width: 250px;
-  position: absolute;
-  top: -16rem;
-  right: 1.5rem;
+  width: 350px;
+  position:auto;
+  right: 2.0rem;
+  height: 20rem;
+  background-color:transparent;
 }
 
 .home__data {
@@ -368,9 +369,10 @@ img {
 }
 
 .case__img {
-  width: 250px;
+  width: 300px;
   position: absolute;
-  left: -7rem;
+  left: -5rem;
+  height: 15rem;
 }
 
 .case__description {
